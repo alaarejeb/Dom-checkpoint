@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="cart">
+        <div class="bar">
+          <h1>name</h1>
+          <h1>price</h1>
+          <h1>Quan.</h1>
+          <h1>total</h1>
+        </div>
+        <div class="produit">
+          <img src="img/t1.png" alt="" />
+          <h1>T-shirt</h1>
+          <h1 class="prix">50000</h1>
+          <button onclick="ajouter(event)">+1</button>
+          <h2>1</h2>
+          <button onclick="sub(event)">-1</button>
+          <h3 class="totalprix">50000</h3>
+          <div class="extra">
+            <button onclick="remove(event)">remove</button>
+            <button class="heart" onclick="like(event)">&#x2661;</button>
+          </div>
+        </div>
+        <div class="produit">
+          <img src="img/t2.png" alt="" />
+          <h1>T-shirt</h1>
+          <h1 class="prix">30000</h1>
+          <button onclick="ajouter(event)">+1</button>
+          <h2>1</h2>
+          <button onclick="sub(event)">-1</button>
+          <h3 class="totalprix">30000</h3>
+          <div class="extra" >
+            <button onclick="remove(event)">remove</button>
+            <button class="heart" onclick="like(event)">&#x2661;</button>
+          </div>
+        </div>
+        <div class="produit">
+          <img src="img/t3.png" alt="" />
+          <h1>T-shirt</h1>
+          <h1 class="prix">45000</h1>
+          <button onclick="ajouter(event)">+1</button>
+          <h2>1</h2>
+          <button onclick="sub(event)">-1</button>
+          <h3 class="totalprix">45000</h3>
+          <div class="extra">
+            <button onclick="remove(event)">remove</button>
+            <button class="heart" onclick="like(event)">&#x2661;</button>
+          </div>
+        </div>
+        <div class="end">
+            <h1>Your total:</h1>
+            <h1 id="maxtotal">0</h1>
+            <h1>Dt</h1>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="main.js"></script>
+  </body>
+</html>
